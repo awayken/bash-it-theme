@@ -22,7 +22,7 @@ __bobby_clock() {
 }
 
 function prompt_command() {
-    PS1="\n$(__bobby_clock)${blue}\u\$ ${green}in ${underline_orange}\w${normal} $(scm_prompt_char_info) ${bold_white}!${normal} "
+    PS1="\n$(__bobby_clock)${blue}\u\$ ${green}in ${underline_orange}\w${normal} $(scm_prompt_char_info)${bold_white}❕${normal} "
 }
 
 THEME_SHOW_CLOCK_CHAR="false"

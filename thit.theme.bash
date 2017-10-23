@@ -28,6 +28,6 @@ function prompt_command() {
 THEME_SHOW_CLOCK_CHAR="false"
 THEME_CLOCK_CHAR_COLOR=${THEME_CLOCK_CHAR_COLOR:-"$red"}
 THEME_CLOCK_COLOR="${red}"
-THEME_CLOCK_FORMAT="\d, %H:%M:%S"
+THEME_CLOCK_FORMAT="%h %d \@"
 
 safe_append_prompt_command prompt_command
